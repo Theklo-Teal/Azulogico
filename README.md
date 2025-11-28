@@ -1,3 +1,10 @@
+For Paracortical Initiative, 2025, Diogo "Theklo" Duarte
+
+Other projects:
+- [Bluesky for news on any progress I've done](https://bsky.app/profile/diogo-duarte.bsky.social)
+- [Itchi.io for my most stable playable projects](https://diogo-duarte.itch.io/)
+- [The Github for source codes and portfolio](https://github.com/Theklo-Teal)
+- [Ko-fi is where I'll accept donations](https://ko-fi.com/paracortical)
 
 # Preamble
 I'm self-taught with electronics design. Although I underwent a mechatronics course at a trade school, the electronics teaching there is very much introductory and I didn't learn much from it. But as you improve your understanding of things, in particular digital electronics, possibilities start coming up into the mind and the intrigue excited me. I started coming up and iterating on ideas for CPUs and their instructionsets, trying too if I could make something quirky and unique. But nothing I made is better than other people's projects in the homebrew computing circles.
