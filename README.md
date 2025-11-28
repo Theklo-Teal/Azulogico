@@ -22,7 +22,7 @@ Azulógico requires two main parts for its development:
 
 # Hardware
 
-![Media/ROM_Implementation_of_Binary_Counter.webp]
+![[Media/ROM_Implementation_of_Binary_Counter.webp]]
 It is common knowledge that ROMs can be used to perform any combinatory logic. They are just lookup tables of what output to return given certain inputs. The basic working principle of Azulogico is the fact that by using feedback, you can also make ROM perform like a sequential logic device. One line "F" acts like an acknowledgement signal for when a free line "U" has transitioned high. This makes the line "U" behave like an edge triggered input. Moreover, other feedbacking lines can be used to keep an ID of current state, as in a Finite State Machine. The picture above uses that ID as the output of a binary counter.
 
 This working principle is also used to develop the homebrew CPU titled [GRAY-1, by Olivier Bailleux](https://hackaday.com/2017/02/02/the-gray-1-a-computer-composed-entirely-of-rom-and-ram/).
