@@ -1,0 +1,24 @@
+; enter routine, if inputs are 1
+[enter 1
+1, 2, 3, 4, 5, 6, 7, 8
+]
+
+; enter routine, if inputs are 2 and make this a default for undefined variants.
+[enter 2
+1, 2, 4, 8, 16, 32, 64, 128
+]
+
+; exit routine
+[exit
+1, 1, 2, 3, 5, 8, 13, 21
+]
+
+
+; [n] means n bits must be high
+; (n) means n bits must be low
+; {n} means n bits we don't care
+; * means single bit we don't care
+
+&0 1(0)
+&{2}1{5} [3]{3}(2)
+&**0***[2] 1111{4}

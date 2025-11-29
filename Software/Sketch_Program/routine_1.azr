@@ -1,0 +1,59 @@
+; Each function can have up to 64 elements (sequence steps).
+; the letter before the numbers indicates number base.
+; functions may be spread across multiple "azr" files.
+
+# larson_scanner
+b0000_0000,
+b0000_0010,
+b0000_0100,
+b0000_1000,
+b0001_0000,
+b0010_0000,
+b0100_0000,
+b1000_0000,
+b0000_0000,
+b1000_0000,
+b0100_0000,
+b0010_0000,
+b0001_0000,
+b0000_1000,
+b0000_0100,
+b0000_0010,
+b0000_0001,
+
+# johnson_counter
+b0000_0000,
+b1000_0000,
+b1100_0000,
+b1110_0000,
+b1111_0000,
+b1111_1000,
+b1111_1100,
+b0000_1110,
+b1111_1111,
+b0111_1111,
+b0011_1111,
+b0001_1111,
+b0000_1111,
+b0000_0111,
+b0000_0011,
+b0000_0001,
+b0000_0000,
+
+# gray_code
+d0,
+d1,
+d3,
+d2,
+d6,
+d7,
+d5,
+d4,
+d12,
+d13,
+d15,
+d14,
+
+
+# music ; This pattern is made up, but pretend it encodes a melody.
+x2, x3, x4, x2, x3, x4, x7, x2, x4, x6, x9, x0, x1, x2, x3, x4

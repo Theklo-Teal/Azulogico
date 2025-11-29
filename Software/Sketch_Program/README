@@ -1,0 +1,5 @@
+This is rough sketch of what programming Azulogico might look like.
+
+The assembler should use index to tell all the states in the "Example" state machine. That's the "header" files, thus the "azh" extension, for "azulogico header".
+"stt" files define the enter, exit and combinatory rules.
+"azr" is for "azulogico routines" and defines arbitrary routines which would be referred in the header.

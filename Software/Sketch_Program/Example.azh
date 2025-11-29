@@ -1,0 +1,21 @@
+; Here we define the states and their triggers. The combinatory rules are on the "stt" files, which also define the "enter" and "exit" routines. Each state gets the file with the same name as the state title.
+The arbritary functions are found in "azr" files.
+
+# first_state
+; transitions
+@1 1
+@2 2
+@3 3
+; arbitrary routines
+[5, 10, 15] ; patterns that trigger a routine execution
+$1 larson_scanner; The function executed if inputs are "1"
+$2 johnson_counter
+
+
+# second_state
+@0 0
+@1 @ ; return previous state from history.
+@2 3
+[42, 69]
+$0 music
+$5 gray_code
